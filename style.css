@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#511378;
+}
+
+input{
+    display: block;
+    box-sizing: border-box;
+
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 20px;
+    border: none;
+    margin: 15px auto;
+    font-size: 18pt;
+    border-radius: 8px;
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15pt;
+}
+
+input[type="radio"]{
+    margin: auto;
+}
+
+
+/*estilo das opções de PT e Branco*/
+.padrao{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 600px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+legend{
+    text-align: center;
+    font-size: 25pt;
+    color: #fff;
+}
+
+fieldset{
+    padding: 20px;
+    border-color:#fff;
+    border-radius: 10px;
+}
+
+.bt-calcular{
+    display: list-item;
+    margin: auto; 
+    font-weight: bold;
+    font-size: 18pt;
+    border: 1px solid #fff;
+    background: none;
+    padding: 15px 40px;
+    border-radius: 70px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bt-calcular:hover{
+    background:linear-gradient(to bottom, #7158e2 5%, #2d0544 100%);
+}
+
+table{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 16pt;
+    table-layout: fixed;
+}
+
+table, tr, td, th{
+    padding: 10px;
+    border: 2px solid #DDD;
+    border-collapse: collapse;
+}
+
+.tb-soda{
+    background-color:#0c95f0;
+}
+
+.tb-peroxido{
+    background-color: #955903;
+}
+
+.resultado-peroxido{
+    background-color:#e68f16;
+}
+
+.resultado-soda{
+    background-color:#17c0eb;
+}
+
+
+footer{
+    position: absolute;
+    color: white;
+    top: 800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
